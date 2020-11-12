@@ -1,0 +1,298 @@
+ * {
+     box-sizing: border-box;
+ }
+
+ body {
+     font-style: normal;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .row {
+     width: 100%;
+ }
+
+ div {
+     /* border:1px solid black; */
+     padding: 10px;
+ }
+
+ /*Extra small devices (xs)*/
+
+ .container {
+     width: 75%;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .container-fluid {
+     width: 100%;
+     margin: 0;
+ }
+
+ .relative {
+     position: relative;
+ }
+
+ .absolute {
+     position: absolute;
+     padding: 0px
+ }
+
+ .bg-grey {
+     background-color: lightgray;
+     color: darkkhaki;
+     padding: 4px;
+ }
+
+ .to-right {
+     right: 0px;
+     top: 0px;
+ }
+
+ p {
+     margin-left: auto;
+     margin-right: auto;
+     width: 90%;
+ }
+
+ [class*="col-"] {
+     float: left;
+ }
+
+ .border {
+     border: 1px solid grey;
+ }
+
+ .bg-orange {
+     background-color: orange;
+     color: white;
+ }
+
+ .bg-red {
+     background-color: red;
+     color: white;
+ }
+ .p1{
+     padding:5px;
+ }
+ .p2{
+     padding:10px;
+ }
+ .p3{
+     padding:15px;
+ }
+ .p4{
+     padding:20px;
+ }
+
+ .w-90{
+     width:90%;
+     margin:auto;
+ }
+ .w-80{
+     width:80%;
+     margin:auto;
+ }
+
+ @media (max-width: 575.98px) {
+     .col-xs-1 {
+         width: 8.33%;
+     }
+     .col-xs-2 {
+         width: 16.66%;
+     }
+     .col-xs-3 {
+         width: 25%;
+     }
+     .col-xs-4 {
+         width: 33.3%;
+     }
+     .col-xs-5 {
+         width: 41.66%;
+     }
+     .col-xs-6 {
+         width: 50%;
+     }
+     .col-xs-7 {
+         width: 58.33%;
+     }
+     .col-xs-8 {
+         width: 66.66%;
+     }
+     .col-xs-9 {
+         width: 75%;
+     }
+     .col-xs-10 {
+         width: 83.33%;
+     }
+     .col-xs-11 {
+         width: 91.66%;
+     }
+     .col-xs-12 {
+         width: 100%;
+     }
+ }
+
+ /* Small devices (landscape phones, 576px and up) (sm)*/
+
+ @media (min-width: 576px) and (max-width:767.8px) {
+     .col-sm-1 {
+         width: 8.33%;
+     }
+     .col-sm-2 {
+         width: 16.66%;
+     }
+     .col-sm-3 {
+         width: 25%;
+     }
+     .col-sm-4 {
+         width: 33.3%;
+     }
+     .col-sm-5 {
+         width: 41.66%;
+     }
+     .col-sm-6 {
+         width: 50%;
+     }
+     .col-sm-7 {
+         width: 58.33%;
+     }
+     .col-sm-8 {
+         width: 66.66%;
+     }
+     .col-sm-9 {
+         width: 75%;
+     }
+     .col-sm-10 {
+         width: 83.33%;
+     }
+     .col-sm-11 {
+         width: 91.66%;
+     }
+     .col-sm-12 {
+         width: 100%;
+     }
+ }
+
+ /*  Medium devices (tablets, 768px and up) (md)*/
+
+ @media (min-width: 768px) and (max-width:991.8px) {
+     .col-md-1 {
+         width: 8.33%;
+     }
+     .col-md-2 {
+         width: 16.66%;
+     }
+     .col-md-3 {
+         width: 25%;
+     }
+     .col-md-4 {
+         width: 33.3%;
+     }
+     .col-md-5 {
+         width: 41.66%;
+     }
+     .col-md-6 {
+         width: 50%;
+     }
+     .col-md-7 {
+         width: 58.33%;
+     }
+     .col-md-8 {
+         width: 66.66%;
+     }
+     .col-md-9 {
+         width: 75%;
+     }
+     .col-md-10 {
+         width: 83.33%;
+     }
+     .col-md-11 {
+         width: 91.66%;
+     }
+     .col-md-12 {
+         width: 100%;
+     }
+ }
+
+ /* Large devices (desktops, 992px and up) (lg)*/
+
+ @media (min-width: 992px)and (max-width:1199.8px) {
+     .col-lg-1 {
+         width: 8.33%;
+     }
+     .col-lg-2 {
+         width: 16.66%;
+     }
+     .col-lg-3 {
+         width: 25%;
+     }
+     .col-lg-4 {
+         width: 33%;
+     }
+     .col-lg-5 {
+         width: 41.66%;
+     }
+     .col-lg-6 {
+         width: 50%;
+     }
+     .col-lg-7 {
+         width: 58%;
+     }
+     .col-lg-8 {
+         width: 66.66%;
+     }
+     .col-lg-9 {
+         width: 75%;
+     }
+     .col-lg-10 {
+         width: 83.33%;
+     }
+     .col-lg-11 {
+         width: 91.66%;
+     }
+     .col-lg-12 {
+         width: 100%;
+     }
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) (xl)*/
+
+ @media (min-width: 1200px) {
+     .col-xl-1 {
+         width: 8.33%;
+     }
+     .col-xl-2 {
+         width: 16.66%;
+     }
+     .col-xl-3 {
+         width: 25%;
+     }
+     .col-xl-4 {
+         width: 33.3%;
+     }
+     .col-xl-5 {
+         width: 41.66%;
+     }
+     .col-xl-6 {
+         width: 50%;
+     }
+     .col-xl-7 {
+         width: 58.33%;
+     }
+     .col-xl-8 {
+         width: 66.66%;
+     }
+     .col-xl-9 {
+         width: 75%;
+     }
+     .col-xl-10 {
+         width: 83.33%;
+     }
+     .col-xl-11 {
+         width: 91.66%;
+     }
+     .col-xl-12 {
+         width: 100%;
+     }
+ }
