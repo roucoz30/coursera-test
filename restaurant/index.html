@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://use.fontawesome.com/0616e18120.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav id="header-nav" class="navbar navbar-expand-md navbar-expand-lg navbar-light bg-yellow">
+            <a href="#" class="navbar-brand ">
+                <img src="images/logo.png" width="75px" height="75px"
+                    class="rounded-circle d-sm-none d-lg-inline d-sm-inline d-none" alt="" />
+                <span class="text-success">The Red Cafe</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active ml-2">
+                        <span class="fas fa-star-half-alt">
+                        </span>
+                        <a href="#" class="nav-link text-mauve text-center">
+                            <i class="fa fa-home fa-2x text-mauve" aria-hidden="true" data-toggle="tooltip"
+                                title="home"></i>
+                            <br />
+                            <span class="text-mauve">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item active ml-2">
+                        <span class="fas fa-star-half-alt">
+                        </span>
+                        <a href="#" class="nav-link text-center" data-toggle="tooltip" title="about">
+                            <i class="fa fa-info fa-2x text-mauve" aria-hidden="true"></i>
+                            <br />
+                            <span class="text-mauve">About</span>
+                        </a>
+                    </li>
+                    <li class="nav-item ml-2">
+                        <a class="nav-link btn btn-warning" href="tel:+96176781199">
+                            <i class="fa fa-phone fa-2x text-mauve" aria-hidden="true"></i>
+                            <br />
+                            <span class="text-mauve">We Deliver</span>
+                            <br />
+                            <span class="text-mauve">76781199</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <br />
+    <div id="main-content" class="container">
+        <div class="jumbotron">
+        </div>
+        <div class="row" id="home-tiles">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <a href="menu-category.html">
+                    <div id="menu-tile">
+                        <img src="./images/restaurant_menu_big.jpg" class="img-fluid" />
+                        <span>menu</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <a href="category-special.html">
+                    <div id="specials-tile">
+                        <img src="./images/restaurant_specials.jpg" class="img-fluid" />
+                        <span>Specials</span>
+                    </div>
+                </a>
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <a href="https://goo.gl/maps/cbhubQzPh2vvM6mc6" target="_blank">
+                    <div id="map-tile">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6627.718099607355!2d35.53581384225275!3d33.84174541132242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f18219a08e5bf%3A0x46c222285e15c42f!2sBaabda%20Presidential%20Palace!5e0!3m2!1sen!2slb!4v1605445656211!5m2!1sen!2slb"
+                            width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                        <span>map</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section id="hours" class="col-sm-4">
+                    <span>Hours : 11:15am</span>
+                    <br/>
+                    Sun-Thurs: 11:15am - 10:00pm
+                    <br/>
+                    Fri: 11:15am - 02:30<br/>
+                    Saturday Closed
+                    <hr class="d-xs-block"/>
+                </section>
+                
+                <section id="address" class="col-sm-4">
+                    <span>Address</span>
+                    <br/>
+                    7105 Registration road 
+                    <br/>
+                    Baltimore ,MD 21215
+                    <p>
+                        Delivery area with 3-4 miles with minimum order
+                        of 20$ plus 3$ charge for all deliveries.
+                    </p>
+                </section>
+
+                <section id="testimonials" class="col-sm-4">
+                    <p>"The best resto-cafe I have ever visited . It makes you feel that your having your coffe at home "</p>
+                    <p>Amazing fast food! I am in love with their red burgers ...couldn't ask for more !</p>
+                </section>
+            </div>
+            <div class="text-center text-white">
+                &copy; Copyright Red Cafe Restaurant 2020
+
+
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(() => {
+            $("[data-toggle='tooltip']").tooltip();
+        })
+    </script>
+</body>
+
+</html>
